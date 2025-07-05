@@ -1,6 +1,12 @@
 @echo off
-title Real-Time Object Detection
+title Advanced Real-Time Object Detection
 cd /d "C:\Users\morig\RealTimeObjectDetection"
-echo Starting Real-Time Object Detection System...
-python enhanced_app.py
+echo 🚀 Starting Advanced Real-Time Object Detection System...
+echo.
+python advanced_app.py
+if %errorlevel% neq 0 (
+    echo.
+    echo ⚠️ Advanced version failed, trying enhanced version...
+    python enhanced_app.py
+)
 pause
