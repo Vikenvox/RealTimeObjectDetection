@@ -46,10 +46,31 @@ A high-performance, user-friendly real-time object detection application built w
    python enhanced_app.py
    ```
 
+## Quick Start
+
+### 🚀 **Recommended: Advanced Version**
+```powershell
+python advanced_app.py
+```
+**Features**: GPU acceleration, camera flip toggle, screenshot capability, advanced performance monitoring
+
+### 📊 **Enhanced Version**
+```powershell
+python enhanced_app.py
+```
+**Features**: Dark theme, FPS monitoring, confidence control
+
+### 🔧 **Basic Version**
+```powershell
+python app.py
+```
+**Features**: Simple object detection with basic GUI
+
 ## Usage
 
 1. **Launch the application**:
-   - Run `python enhanced_app.py` or use the setup script
+   - **Recommended**: Run `python advanced_app.py` for best experience
+   - Alternative: Run `python enhanced_app.py` or use the setup script
 
 2. **Controls**:
    - Click **"Start Detection"** to begin real-time object detection
@@ -76,7 +97,8 @@ A high-performance, user-friendly real-time object detection application built w
 
 ```
 RealTimeObjectDetection/
-├── enhanced_app.py      # Main optimized application
+├── advanced_app.py     # 🚀 NEW: Advanced version with GPU support & best performance
+├── enhanced_app.py     # Enhanced version (previous)
 ├── app.py              # Basic version
 ├── setup.py            # Setup and installation script
 ├── requirements.txt    # Python dependencies
