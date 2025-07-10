@@ -25,9 +25,10 @@ A high-performance, user-friendly real-time object detection application built w
 
 ## Installation & Setup
 
-1. **Navigate to the project directory**:
-   ```powershell
-   cd C:\Users\morig\RealTimeObjectDetection
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Vikenvox/RealTimeObjectDetection.git
+   cd RealTimeObjectDetection
    ```
 
 2. **Run the setup script**:
@@ -44,6 +45,15 @@ A high-performance, user-friendly real-time object detection application built w
    ```powershell
    pip install -r requirements.txt
    python enhanced_app.py
+   ```
+
+4. **Quick run (Windows)**:
+   ```powershell
+   # Run with batch file
+   run_detection.bat
+   
+   # Or run with PowerShell script
+   .\run_detection.ps1
    ```
 
 ## Quick Start
@@ -97,11 +107,14 @@ python app.py
 
 ```
 RealTimeObjectDetection/
-├── advanced_app.py     # 🚀 NEW: Advanced version with GPU support & best performance
-├── enhanced_app.py     # Enhanced version (previous)
+├── advanced_app.py     # 🚀 Advanced version with GPU support & best performance
+├── enhanced_app.py     # Enhanced version with optimizations
 ├── app.py              # Basic version
 ├── setup.py            # Setup and installation script
 ├── requirements.txt    # Python dependencies
+├── run_detection.bat   # Windows batch file for quick run
+├── run_detection.ps1   # PowerShell script for quick run
+├── yolov8n.pt          # YOLOv8 nano model weights
 └── README.md          # This file
 ```
 
